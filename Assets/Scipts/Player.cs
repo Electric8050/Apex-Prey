@@ -1,0 +1,45 @@
+using UnityEngine;
+
+public class Playercube : MonoBehaviour
+{
+    public float horizontalInput;
+    public float forwardInput;
+    public float speed;
+    public Rigidbody rb;
+    public bool isOnGround = true;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+        forwardInput = Input.GetAxis("Vertical");
+        transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
+
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+
+        {
+
+
+            rb.AddForce(Vector3.up * 500);
+
+            isOnGround = false;
+
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+
+        {
+            isOnGround = true;
+        }
+    }
+
+}
