@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 338fce086359d4695a0647b26d4e445e
+timeCreated: 1488646553
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 146834
+  packageName: Terrain Creator (Low Poly)
+  packageVersion: 1.0
+  assetPath: Assets/Worq/Terrain Creator/Scripts/Serializables.cs
+  uploadId: 312392

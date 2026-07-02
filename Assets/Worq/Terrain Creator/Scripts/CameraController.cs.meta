@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c32d8de5761d4476abb3baaa250f28ed
+timeCreated: 1491181410
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 146834
+  packageName: Terrain Creator (Low Poly)
+  packageVersion: 1.0
+  assetPath: Assets/Worq/Terrain Creator/Scripts/CameraController.cs
+  uploadId: 312392
