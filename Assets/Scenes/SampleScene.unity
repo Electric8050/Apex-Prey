@@ -15583,6 +15583,8 @@ MonoBehaviour:
   speed: 10
   rb: {fileID: 2079580081}
   isOnGround: 1
+  walkSpeed: 10
+  sprintSpeed: 15
 --- !u!114 &2079580086
 MonoBehaviour:
   m_ObjectHideFlags: 0
