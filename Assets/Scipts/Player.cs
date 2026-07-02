@@ -26,7 +26,7 @@ public class Playercube : MonoBehaviour
         {
 
 
-            rb.AddForce(Vector3.up * 500);
+            rb.AddForce(Vector3.up * 700);
 
             isOnGround = false;
 
