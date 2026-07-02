@@ -84,13 +84,5 @@ public class Jumping : MonoBehaviour
         coyoteTimeCounter = 0f;
     }
 
-    // Visualizes the ground check sphere in the Unity editor scene view
-    void OnDrawGizmosSelected()
-    {
-        if (groundCheck != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, groundDistance);
-        }
-    }
+    
 }

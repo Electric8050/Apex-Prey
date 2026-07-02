@@ -11,7 +11,7 @@ public class Score : MonoBehaviour
         if (other.CompareTag("Coin"))
         {
             score++;
-            scoreText.text = "Score: " + score;
+            scoreText.text = "Coins: " + score;
             Destroy(other.gameObject);
         }
     }
