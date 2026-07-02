@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class BetterJump3D : MonoBehaviour
+public class Jumping : MonoBehaviour
 {
     [Header("Jump Physics")]
     public float jumpForce = 8f;

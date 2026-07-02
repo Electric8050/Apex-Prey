@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Playercube : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public float horizontalInput;
     public float forwardInput;
