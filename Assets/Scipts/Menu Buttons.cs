@@ -33,4 +33,8 @@ using UnityEngine.SceneManagement;
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
         }
+        public void MainMenu()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        }
 }
